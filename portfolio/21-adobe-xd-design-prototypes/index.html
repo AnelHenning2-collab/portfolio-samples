@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adobe XD Design Prototypes | Anél Henning Portfolio</title>
+  <style>
+    :root {
+      --accent: #FF26BE;
+      --bg: #0d0d0d;
+      --card: #161616;
+      --border: #2a2a2a;
+      --text: #e8e8e8;
+      --muted: #888;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #1a0030 0%, #0d0d0d 60%);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+    header .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      background: linear-gradient(90deg, #fff 40%, var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    nav.breadcrumb {
+      padding: 0.75rem 2rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+    section.intro {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 3rem;
+    }
+    section.intro h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 0.5rem; }
+    section.intro p { font-size: 0.95rem; color: #bbb; }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .skill-tag {
+      background: #1e0033;
+      color: var(--accent);
+      border: 1px solid #3d0060;
+      border-radius: 999px;
+      padding: 0.25rem 0.85rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .project-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+    .card-thumb {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      background: linear-gradient(135deg, #1a0030, #0a0015);
+    }
+    .card-body { padding: 1.25rem; }
+    .card-body h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .card-body p { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; }
+    .card-link {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .card-link:hover { opacity: 0.85; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="badge">Portfolio Sample #21</span>
+  <h1>Adobe XD Design Prototypes</h1>
+  <p>UI/UX wireframes, interactive prototypes, and design systems crafted in Adobe XD</p>
+</header>
+
+<nav class="breadcrumb">
+  <a href="../../index.html">Home</a> &rsaquo; <a href="../">Portfolio</a> &rsaquo; Adobe XD Design Prototypes
+</nav>
+
+<main>
+
+  <section class="intro">
+    <h2>About This Project</h2>
+    <p>
+      This collection showcases high-fidelity UI/UX prototypes built in Adobe XD, spanning mobile apps,
+      web dashboards, and cybersecurity tooling interfaces. Each prototype demonstrates a full design
+      workflow — from wireframe to interactive prototype — with attention to usability, accessibility, and
+      visual consistency.
+    </p>
+    <div class="skills-grid">
+      <span class="skill-tag">Adobe XD</span>
+      <span class="skill-tag">Wireframing</span>
+      <span class="skill-tag">Interactive Prototypes</span>
+      <span class="skill-tag">Design Systems</span>
+      <span class="skill-tag">Responsive UI</span>
+      <span class="skill-tag">UX Research</span>
+      <span class="skill-tag">Component Libraries</span>
+      <span class="skill-tag">Accessibility</span>
+    </div>
+  </section>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="card-thumb">🛡️</div>
+      <div class="card-body">
+        <h3>Cybersecurity Dashboard UI</h3>
+        <p>Threat monitoring dashboard with real-time alert panels, risk scoring widgets, and dark-mode design system.</p>
+        <a class="card-link" href="#">View Prototype</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-thumb">📱</div>
+      <div class="card-body">
+        <h3>Mobile Security App</h3>
+        <p>iOS/Android prototype for a personal security audit app featuring onboarding flows and biometric UI patterns.</p>
+        <a class="card-link" href="#">View Prototype</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-thumb">🔗</div>
+      <div class="card-body">
+        <h3>Web3 Wallet UX</h3>
+        <p>Multi-step wallet creation and token management flow aligned with the LogikaQBits dApp design language.</p>
+        <a class="card-link" href="#">View Prototype</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-thumb">📊</div>
+      <div class="card-body">
+        <h3>Research Portfolio Site</h3>
+        <p>Desktop wireframe for a quantum computing research outreach site — responsive grid layout and professor profiles.</p>
+        <a class="card-link" href="#">View Prototype</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-thumb">🔐</div>
+      <div class="card-body">
+        <h3>Penetration Test Report UI</h3>
+        <p>Interactive report viewer prototype with collapsible finding cards, CVSS scoring display, and executive summary view.</p>
+        <a class="card-link" href="#">View Prototype</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-thumb">🎨</div>
+      <div class="card-body">
+        <h3>Design System / Component Library</h3>
+        <p>Reusable XD component kit — buttons, inputs, cards, navigation patterns — used across all portfolio prototypes.</p>
+        <a class="card-link" href="#">View Components</a>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="back-link" href="../../index.html">← Back to Portfolio Home</a>
+
+</main>
+
+<footer>
+  &copy; 2026 <a href="https://github.com/AnelHenning2-collab">Anél Henning</a> &mdash;
+  Purdue Global MS Cybersecurity &bull; Rasmussen BS Computer Science &bull;
+  <a href="https://www.linkedin.com/in/anel-henning-quantum">LinkedIn</a>
+</footer>
+
+</body>
+</html>
