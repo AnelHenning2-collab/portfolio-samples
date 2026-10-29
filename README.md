@@ -1,4 +1,4 @@
-# Anél Henning – Portfolio Showcase
+# Anèl Henning – Portfolio Showcase
 
 **Purdue Global University** | Cybersecurity MS + Rasmussen Computer Science BS
 
