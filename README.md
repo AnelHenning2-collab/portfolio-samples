@@ -1,6 +1,6 @@
 # Anèl Henning – Portfolio Showcase
 
-**Purdue Global University** | Cybersecurity MS + Rasmussen Computer Science BS
+**Purdue University Global** | Cybersecurity MS + Rasmussen Computer Science BS
 
 > *"The token is the basic unit of modern AI."* — Jensen Huang, NVIDIA GTC 2026
 
@@ -34,7 +34,7 @@ This project is directly aligned with the themes from **NVIDIA GTC 2026**, where
 
 | Degree | Institution | Focus |
 |---|---|---|
-| MS Cybersecurity | Purdue Global University | Blockchain, Security, AI |
+| MS Cybersecurity Management | Purdue University Global | Blockchain, Security, AI |
 | BS Computer Science | Rasmussen University | Software Development |
 
 ---
